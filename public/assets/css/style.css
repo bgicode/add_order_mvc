@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    padding: 20px;
+    width: 80%;
+}
+
+ul {
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.orderList {
+    margin-top: 10px;
+}
+
+.goodsTitle {
+    margin-top: 10px;
+}
+
+.goodsList {
+    margin-top: 10px;
+}
+
+.goodUnit {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 40%;
+}
+
+.showPositions {
+    margin-left: 30px;
+}
+
+.showPositions > div {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: rgb(185, 183, 183);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: rgb(80, 80, 80);
+}
+
+.button:hover {
+    background-color: rgb(130, 196, 240);
+}
+
+.input {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.submit {
+    width: 100%;
+    height: 100%;
+}
+
+.wraper {
+    display: flex;
+}
+
+.listTitle {
+    margin-top: 20px;
+}
+
+.positionFieldTitle {
+    display: block;
+}
+
+.positionTitleWraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deletePosition {
+    padding: 2px;
+}
+
+select {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+label {
+    display: block;
+}
+
+.dateWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentWraper {
+    margin: 20px;
+}
+
+.link {
+    display: inline-block;
+}
